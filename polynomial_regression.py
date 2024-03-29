@@ -37,7 +37,7 @@ X_poly = poly_regressor.fit_transform(X)
 final_regressor = LinearRegression()
 # Train final regression model with the polynomial matrix we created above.
 final_regressor.fit(X_poly, y)
-# Don't worry if you don't understand it. Go through the explanation to understand the concept in depth: <LINK>
+# Don't worry if you don't understand it. Go through the explanation to understand the concept in depth: https://github.com/meetofleaf/ML-Journal-ep3_Polynomial_Regression/blob/main/polynomial_regression_explanation.md
 
 
 ### If you were able to run till here successfully, then machine learning part is complete. Let's visualize the model.
