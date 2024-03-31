@@ -9,7 +9,7 @@ In this series of repositories, we'll explore various models, documenting the co
 
 
 # Ep 03 - Polynomial Regression
-This repository is the thrid in the 'ML Journal' series aimed at revisiting fundamental machine learning models. This specific repository focuses on Linear Regression, a widely used technique for modeling linear relationships between features and a target variable.
+This repository is the third in the 'ML Journal' series aimed at revisiting fundamental machine learning models. This specific repository focuses on Linear Regression, a widely used technique for modeling linear relationships between features and a target variable.
 
 #### [Concept explanation](https://github.com/meetofleaf/ML-Journal-ep3_Polynomial_Regression/blob/main/polynomial_regression_explanation.md)
 
