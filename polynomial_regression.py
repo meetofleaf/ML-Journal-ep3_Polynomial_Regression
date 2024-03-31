@@ -3,11 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-
-from sklearn.preprocessing import PolynomialFeatures
-
 
 ### Import Dataset
 dataset = pd.read_csv('amd_daily.csv')    # Feel free to use your own dataset to experiment.
@@ -26,6 +21,9 @@ y = dataset.iloc[:,4:5].values       # Dependent variable (close)
 
 
 ### Model Training
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+
 # Training the Linear Regression model (named linear_regressor here) on the dataset
 linear_regressor = LinearRegression()      # Define regressor as regression instance. The linear regression class works for multiple regression as well.
 linear_regressor.fit(X, y)     # Train the model on training data of both independent and dependent data.
