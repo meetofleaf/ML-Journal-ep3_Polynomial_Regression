@@ -22,16 +22,16 @@ Here's the formula for a second-degree polynomial regression model with one inde
 ## Visualizing the Curve
 Let's plot the Day on the x-axis and the Closing Price on the y-axis. A second-degree polynomial regression would result in a U-shaped or an inverted U-shaped curve, depending on the coefficients.
 
-- Following plot shows **Polynomial Regression model with degree 2.**
+- The following plot shows **Polynomial Regression model with degree 2.**
 ![Degree 2 Polynomial Regression Model](.media/figure_1.png)
 
-- Higher-degree polynomials can create even more intricate curves. Following plot shows **Polynomial Regression model with degree 4.**
+- Higher-degree polynomials can create even more intricate curves. The following plot shows **Polynomial Regression model with degree 4.**
 ![Degree 4 Polynomial Regression Model](.media/figure_2.png)
 
-Higher the degree of the polynomial regression equation, closer the model line gets to the data points.
+The higher the degree of the polynomial regression equation, the closer the model line gets to the data points.
 
 Although **be careful**, using a degree too high might overfit the data jeopardizing the accuracy and effectiveness of the model.
-- For example, below given graph shows the same model but with a **degree of 25.**
+- For example, the graph below shows the same model but with a **degree of 25.**
 ![Degree 25 Polynomial Regression Model](.media/figure_3.png)
 
 
@@ -40,7 +40,7 @@ Although **be careful**, using a degree too high might overfit the data jeopardi
 - Model interpretability: As the polynomial degree increases, the model becomes more complex and interpreting the coefficients can become challenging.
 
 ## In Conclusion
-Polynomial regression is a powerful tool for modeling non-linear relationships. By carefully choosing the polynomial degree and considering overfitting, you can create models that capture the nuances of your data and improve your predictions.
+Polynomial regression is a powerful tool for modelling non-linear relationships. By carefully choosing the polynomial degree and considering overfitting, you can create models that capture the nuances of your data and improve your predictions.
 
 ## Ready to Explore Further?
 This is just a glimpse into polynomial regression. As you delve deeper, you'll explore:
