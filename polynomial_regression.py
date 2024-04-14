@@ -38,6 +38,14 @@ final_regressor.fit(X_poly, y)
 # Don't worry if you don't understand it. Go through the explanation to understand the concept in depth: https://github.com/meetofleaf/ML-Journal-ep3_Polynomial_Regression/blob/main/polynomial_regression_explanation.md
 
 
+### Prediction
+# Function to predict profit based on input using our models (final_regressor and poly_regressor)
+def prediction(day):
+    return final_regressor.predict(poly_regressor.fit_transform([[day]]))
+
+print(prediction(295))  # The input is the day, which means the model predicts what will be the price of the stock on given number of day. Feel free to experiment.
+
+
 ### If you were able to run till here successfully, then machine learning part is complete. Let's visualize the model.
 
 
@@ -58,10 +66,3 @@ plt.xlabel("Day")
 plt.ylabel("Price")
 plt.show()
 
-
-### Prediction
-# Function to predict profit based on input using our models (final_regressor and poly_regressor)
-def prediction(day):
-    return final_regressor.predict(poly_regressor.fit_transform([[day]]))
-
-print(prediction(295))  # The input is the day, which means the model predicts what will be the price of the stock on given number of day. Feel free to experiment.
